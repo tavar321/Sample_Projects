@@ -1,1 +1,13 @@
 # Sample_Projects
+'''
+Projects: Simple Nuclear Reactor, Housing Segregation Model, Data mining, 
+
+Simple Nuclear Reactor: This showcases my ability to make complex quantitative concepts understandable to non-quants, and demonstrates my ability to understand what additional steps may be taken to further improve my work. Note that some of the code for this project does involve data that is not allowed to be shared, so I cannot provide the original code. This project was done for my computational physics course. 
+
+Housing Segregation Model: This was simply one of my favorite projects that I've done, it lets me quantitatively model social science concepts. It’s easily extendable into a much more complex simulation, but even its very coarse overview provides very cool insights on how segregation develops. It also demonstrates how I write my code to be understandable to anyone who views it later. This project was done for my introductory CS course. 
+The segregation model worked by considering a grid of possible locations, each either occupied by a red person, a blue person, or an empty lot. With a variable neighborhood size, and boundaries on neighborhoods, we calculated whether each occupant was satisfied with their neighborhood in the city (with a variable threshold for satisfaction). If they were unsatisfied, we moved them to a new location where they were satisfied, and opened their previous location. This repeated until there were no more unsatisfied people, or no more people who could be satisfied.
+
+Data mining: This actually includes two projects, a linear regression model and a PANDAS (python package) dataframe project for extracting useful information from the US's Current Population Survey data. These projects simply demonstrate an ability to take raw data and get usable results out of it. 
+The linear regression model works by first using a training data-set to find R^2 values (or the variance) for individual independent variables, and then finding the next best independent variable such that the pair maximize the R^2 value. This was then extended to keep finding the next best variable to add onto the model. Finally the model was evaluated on data that was not part of the training set. 
+The PANDAS dataframe project was done with basic data cleaning, restrictions on the data set to ensure faster mining, and transforming that data into visuals. Essentially it took allowed us to create such outputs as a histogram of salaries across the United States, or look at the unemployment rate for women (or any other category of data) in the various survey years.
+'''
